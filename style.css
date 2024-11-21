@@ -1,93 +1,140 @@
-/* Grundlegendes Styling */
+/* Allgemeines Styling */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f9f9f9;
+    color: #333;
 }
 
 header {
-    background-color: #333;
-    padding: 20px;
+    background-color: #222;
     color: white;
+    padding: 15px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 header nav ul {
-    list-style-type: none;
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
 }
 
 header nav ul li {
-    display: inline;
-    margin-right: 20px;
+    margin-left: 20px;
 }
 
 header nav ul li a {
-    color: white;
     text-decoration: none;
-    font-size: 18px;
+    color: white;
+    font-weight: 400;
+    transition: color 0.3s ease;
 }
 
 header nav ul li a:hover {
-    text-decoration: underline;
+    color: #f7c08a;
 }
 
-/* Startseite */
-.hero-image {
-    background-image: url('cafe-interior.jpg');
+/* Hero-Bereich */
+.hero {
+    background-image: url('hero-background.jpg');
     background-size: cover;
-    height: 400px;
+    background-position: center;
+    height: 80vh;
     color: white;
-    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-}
-
-.hero-image h1 {
-    font-size: 48px;
-}
-
-.hero-image p {
-    font-size: 24px;
-}
-
-/* Menü */
-#about, #menu, #gallery, #contact {
-    padding: 50px;
     text-align: center;
 }
 
-.menu-item {
+.hero-text h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.btn {
     display: inline-block;
-    margin: 20px;
+    padding: 10px 20px;
+    background-color: #f7c08a;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
 }
 
-.menu-item img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
+.btn:hover {
+    background-color: #e6a067;
 }
 
-.gallery {
+/* Abschnitte */
+section {
+    padding: 50px 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Speisekarte */
+.menu-grid {
     display: flex;
+    gap: 20px;
     justify-content: center;
 }
 
-.gallery img {
-    margin: 10px;
-    width: 300px;
-    height: 200px;
-    object-fit: cover;
+.menu-item {
+    text-align: center;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* Galerie */
+.gallery-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery-grid img {
+    max-width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 /* Footer */
 footer {
-    background-color: #333;
-    color: white;
     text-align: center;
     padding: 20px;
+    background-color: #222;
+    color: white;
+    margin-top: 20px;
 }
+
