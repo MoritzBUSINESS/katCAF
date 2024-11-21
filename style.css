@@ -1,16 +1,17 @@
 /* Allgemeines Styling */
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
+    background-color: #fffaf0;
     color: #333;
+    line-height: 1.6;
 }
 
 header {
-    background-color: #222;
+    background-color: #ffcf80;
     color: white;
-    padding: 15px 20px;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,12 +31,13 @@ header nav ul li {
 header nav ul li a {
     text-decoration: none;
     color: white;
-    font-weight: 400;
+    font-weight: 700;
+    font-size: 16px;
     transition: color 0.3s ease;
 }
 
 header nav ul li a:hover {
-    color: #f7c08a;
+    color: #754c24;
 }
 
 /* Hero-Bereich */
@@ -43,28 +45,28 @@ header nav ul li a:hover {
     background-image: url('hero-background.jpg');
     background-size: cover;
     background-position: center;
-    height: 80vh;
+    height: 90vh;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 0 20px;
 }
 
-.hero-text h1 {
-    font-size: 48px;
-    margin: 0;
+.hero h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 56px;
 }
 
-.hero-text p {
-    font-size: 18px;
-    margin: 15px 0;
+.hero span {
+    color: #ffcf80;
 }
 
-.btn {
+.hero .btn {
     display: inline-block;
-    padding: 10px 20px;
-    background-color: #f7c08a;
+    padding: 12px 30px;
+    background-color: #754c24;
     color: white;
     text-decoration: none;
     font-weight: 700;
@@ -73,8 +75,9 @@ header nav ul li a:hover {
     transition: background-color 0.3s ease;
 }
 
-.btn:hover {
-    background-color: #e6a067;
+.hero .btn:hover {
+    background-color: #ffcf80;
+    color: #754c24;
 }
 
 /* Abschnitte */
@@ -89,8 +92,10 @@ section {
 
 h2 {
     text-align: center;
+    font-family: 'Lobster', cursive;
     font-size: 36px;
     margin-bottom: 20px;
+    color: #754c24;
 }
 
 /* Speisekarte */
@@ -98,6 +103,7 @@ h2 {
     display: flex;
     gap: 20px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .menu-item {
@@ -133,8 +139,8 @@ h2 {
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #222;
-    color: white;
+    background-color: #ffcf80;
+    color: #754c24;
     margin-top: 20px;
 }
 
