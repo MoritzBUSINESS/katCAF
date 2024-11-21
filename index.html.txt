@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Karthaus Laatzen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Café Karthaus Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Startseite</a></li>
+                <li><a href="#about">Über uns</a></li>
+                <li><a href="#menu">Speisekarte</a></li>
+                <li><a href="#gallery">Galerie</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="hero-image">
+            <img src="cafe-interior.jpg" alt="Café Interior">
+            <h1>Willkommen im Café Karthaus</h1>
+            <p>Genießen Sie hausgemachte Kuchen und eine gemütliche Atmosphäre!</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>Über uns</h2>
+        <p>Das Café Karthaus in Laatzen bietet eine Vielzahl an köstlichen Leckereien und eine entspannte Atmosphäre für Ihre Auszeit.</p>
+    </section>
+
+    <section id="menu">
+        <h2>Unsere Speisekarte</h2>
+        <div class="menu-item">
+            <img src="kuchen.jpg" alt="Kuchen">
+            <h3>Hausgemachte Kuchen</h3>
+            <p>Unsere täglich frisch gebackenen Kuchen – perfekt für eine Kaffeeauszeit.</p>
+        </div>
+        <div class="menu-item">
+            <img src="kaffee.jpg" alt="Kaffee">
+            <h3>Frisch zubereiteter Kaffee</h3>
+            <p>Genießen Sie eine Tasse Kaffee aus der besten Bohne.</p>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <h2>Galerie</h2>
+        <div class="gallery">
+            <img src="cafe1.jpg" alt="Café Atmosphäre">
+            <img src="cafe2.jpg" alt="Kaffee und Kuchen">
+            <img src="cafe3.jpg" alt="Torte">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Kontakt</h2>
+        <p>Öffnungszeiten: Montag bis Freitag 8:00 - 18:00</p>
+        <p>Adresse: Musterstraße 123, 12345 Laatzen</p>
+        <p>Telefon: 01234 56789</p>
+        <a href="mailto:info@cafekarthaus.de">info@cafekarthaus.de</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Café Karthaus Laatzen</p>
+    </footer>
+
+</body>
+</html>
