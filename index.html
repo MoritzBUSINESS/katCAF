@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Café Karthaus Laatzen</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-
     <header>
         <div class="logo">
             <img src="logo.png" alt="Café Karthaus Logo">
@@ -24,52 +24,67 @@
     </header>
 
     <section id="home">
-        <div class="hero-image">
-            <img src="cafe-interior.jpg" alt="Café Interior">
-            <h1>Willkommen im Café Karthaus</h1>
-            <p>Genießen Sie hausgemachte Kuchen und eine gemütliche Atmosphäre!</p>
+        <div class="hero">
+            <div class="hero-text">
+                <h1>Willkommen im Café Karthaus</h1>
+                <p>Genießen Sie hausgemachte Kuchen in einer gemütlichen Atmosphäre.</p>
+                <a href="#menu" class="btn">Unsere Speisekarte</a>
+            </div>
         </div>
     </section>
 
     <section id="about">
-        <h2>Über uns</h2>
-        <p>Das Café Karthaus in Laatzen bietet eine Vielzahl an köstlichen Leckereien und eine entspannte Atmosphäre für Ihre Auszeit.</p>
+        <div class="container">
+            <h2>Über uns</h2>
+            <p>Das Café Karthaus ist ein Ort für Genießer. Mit frischen, hausgemachten Spezialitäten und einer gemütlichen Atmosphäre laden wir Sie ein, bei uns zu entspannen.</p>
+        </div>
     </section>
 
     <section id="menu">
-        <h2>Unsere Speisekarte</h2>
-        <div class="menu-item">
-            <img src="kuchen.jpg" alt="Kuchen">
-            <h3>Hausgemachte Kuchen</h3>
-            <p>Unsere täglich frisch gebackenen Kuchen – perfekt für eine Kaffeeauszeit.</p>
-        </div>
-        <div class="menu-item">
-            <img src="kaffee.jpg" alt="Kaffee">
-            <h3>Frisch zubereiteter Kaffee</h3>
-            <p>Genießen Sie eine Tasse Kaffee aus der besten Bohne.</p>
+        <div class="container">
+            <h2>Unsere Speisekarte</h2>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <img src="kuchen.jpg" alt="Hausgemachter Kuchen">
+                    <h3>Kuchen</h3>
+                    <p>Frisch gebackene Kuchen aus regionalen Zutaten.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="kaffee.jpg" alt="Kaffee">
+                    <h3>Kaffee</h3>
+                    <p>Hochwertiger Kaffee, perfekt gebrüht.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="torte.jpg" alt="Torten">
+                    <h3>Torten</h3>
+                    <p>Kreative Torten für jeden Anlass.</p>
+                </div>
+            </div>
         </div>
     </section>
 
     <section id="gallery">
-        <h2>Galerie</h2>
-        <div class="gallery">
-            <img src="cafe1.jpg" alt="Café Atmosphäre">
-            <img src="cafe2.jpg" alt="Kaffee und Kuchen">
-            <img src="cafe3.jpg" alt="Torte">
+        <div class="container">
+            <h2>Galerie</h2>
+            <div class="gallery-grid">
+                <img src="gallery1.jpg" alt="Café">
+                <img src="gallery2.jpg" alt="Kuchen">
+                <img src="gallery3.jpg" alt="Innenansicht">
+            </div>
         </div>
     </section>
 
     <section id="contact">
-        <h2>Kontakt</h2>
-        <p>Öffnungszeiten: Montag bis Freitag 8:00 - 18:00</p>
-        <p>Adresse: Musterstraße 123, 12345 Laatzen</p>
-        <p>Telefon: 01234 56789</p>
-        <a href="mailto:info@cafekarthaus.de">info@cafekarthaus.de</a>
+        <div class="container">
+            <h2>Kontakt</h2>
+            <p>Adresse: Musterstraße 123, 12345 Laatzen</p>
+            <p>Telefon: 01234 56789</p>
+            <p>E-Mail: <a href="mailto:info@cafekarthaus.de">info@cafekarthaus.de</a></p>
+        </div>
     </section>
 
     <footer>
-        <p>&copy; 2024 Café Karthaus Laatzen</p>
+        <p>&copy; 2024 Café Karthaus Laatzen. Alle Rechte vorbehalten.</p>
     </footer>
-
 </body>
 </html>
